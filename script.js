@@ -18,7 +18,7 @@ let choiceA2image = document.querySelector('.choiceA2image');
     choiceA2image.style.display ="none";
 
 headButton.addEventListener('click', function() {
-text.innerHTML = "The tracks lead you deeper into the subway tunnels. You encounter a scavenger who is hostile. Double click picture to fight OR seach the page for supplies ";
+text.innerHTML = "You start to walk through the woods and you hear a noise in the distance. Double click picture to Run OR seach the page to check it out ";
 start.style.display = "none";
 choiceAimage.style.display ="block";
 exploreButton.style.display="none";
@@ -27,13 +27,13 @@ headButton.style.display="none";
 
 choiceAimage.addEventListener('dblclick', function(){
     choiceAimage.style.display ="none";
-    text.innerHTML = "You knock them out. You are safe for now"
+    text.innerHTML = "You run all the way home and you're safe"
     choiceA1image.style.display ="block";
 });
 
 pizza.addEventListener("mouseenter", function(){
     choiceAimage.style.display ="none";
-    text.innerHTML = "You found supplies. You make it another day"
+    text.innerHTML = "You check it out and its a bunny and then you continue on your rout and get home safe"
     choiceA2image.style.display ="block";
 });
 
@@ -42,6 +42,6 @@ pizza.addEventListener("mouseenter", function(){
 
 exploreButton.addEventListener("click", function(){
     
-    text.innerHTML = "SORRY THIS CHOICE IS STILL UNDER CONSTRUCTION"
+    text.innerHTML = " You spot something in the distance that's big and furry"
    
 });
