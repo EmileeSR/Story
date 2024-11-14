@@ -27,13 +27,13 @@ headButton.style.display="none";
 
 choiceAimage.addEventListener('dblclick', function(){
     choiceAimage.style.display ="none";
-    text.innerHTML = "You run all the way home and you're safe"
+    text.innerHTML = "You run all the way home and you're safe";
     choiceA1image.style.display ="block";
 });
 
 pizza.addEventListener("mouseenter", function(){
     choiceAimage.style.display ="none";
-    text.innerHTML = "You check it out and its a bunny and then you continue on your rout and get home safe"
+    text.innerHTML = "You check it out and its a bunny and then you continue on your rout and get home safe";
     choiceA2image.style.display ="block";
 });
 
@@ -42,6 +42,22 @@ pizza.addEventListener("mouseenter", function(){
 
 exploreButton.addEventListener("click", function(){
     
-    text.innerHTML = " You spot something in the distance that's big and furry"
-   
-});
+text.innerHTML = "You spot something in the distance that's big and furry.  Double click picture to Grab a weapon OR seach the page to check it out the monster ";
+    start.style.display = "none";
+    choiceAimage.style.display ="block";
+    exploreButton.style.display="none";
+    headButton.style.display="none";
+    });
+    
+    choiceAimage.addEventListener('dblclick', function(){
+        choiceAimage.style.display ="none";
+        text.innerHTML = "The monster sees you and runs towards you but you used your weapon and knocked it out and you ran home.";
+        choiceA1image.style.display ="block";
+    });
+    
+    pizza.addEventListener("mouseenter", function(){
+        choiceAimage.style.display ="none";
+        text.innerHTML = "You go check out the monster and it makes eye contact with you and it comes towards you and kills you.";
+        choiceA2image.style.display ="block";
+    });
+    
