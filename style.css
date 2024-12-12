@@ -10,17 +10,17 @@ body{ background-image: url("woodsssss.jpg");
     font-style: normal;}
 
 .main{width:300px;margin:0 auto;
-background:#959595ff; padding:15px;}
+background:rgb(245, 252, 255); padding:15px;}
 img{width:300px;
 }
 p{
 color:#262626;
-background: #959595ff;
+background: rgb(245, 252, 255);
 padding:5px;
 font-size: .8em;}
 
 button{margin:5px;
 padding:25px;
 font-size: .8em;
-background:#fdfeee;
+background:#f9faef;
 }
