@@ -1,21 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic&display=swap');
 
 
-body{ background-image: url("woodsssss.jpg");
+body{ 
+    background-image: url("woodsssss.jpg");
     background-repeat: repeat-y;
     background-repeat: repeat-x;
     background-size: 2000px;
     font-family: "Carrois Gothic", sans-serif;
     font-weight: 400;
-    font-style: normal;}
+    font-style: normal;
+}
 
-.main{width:300px;margin:0 auto;
-background:rgb(245, 252, 255); padding:15px;}
+.main{
+    width:300px;margin:0 auto;
+background:rgba(22, 22, 22, 0.8) ; 
+padding:15px;
+
+}
+
+h1{color:rgb(238, 241, 247);
+text-align: center;}
+
+
+
 img{width:300px;
 }
 p{
 color:#262626;
-background: rgb(245, 252, 255);
+background: rgb(232, 243, 248);
 padding:5px;
 font-size: .8em;}
 
